@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="panelImgOriginal" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="panelImgProcessada" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnAbrir" min="-2" pref="91" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btnRestaurar" min="-2" pref="91" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btnSalvar" min="-2" pref="91" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="145" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="143" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnMediana" max="32767" attributes="0"/>
+                  <Component id="btnMedia" alignment="1" pref="249" max="32767" attributes="0"/>
+                  <Component id="btnGauciana" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btnKVizinhos" alignment="1" pref="249" max="32767" attributes="0"/>
+                  <Component id="btnLaplaciano" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btnHighBoost" alignment="1" pref="249" max="32767" attributes="0"/>
+                  <Component id="btnRoberts" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btnPrewitt" alignment="1" pref="249" max="32767" attributes="0"/>
+                  <Component id="btnSobel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btnCanny" alignment="1" pref="249" max="32767" attributes="0"/>
+                  <Component id="btnSegmentacao" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btnLimiarizacaoGlobalSimples" alignment="1" pref="249" max="32767" attributes="0"/>
+                  <Component id="btnLimiarizacaoGlobalOtima" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btnOtsu" alignment="1" pref="249" max="32767" attributes="0"/>
+                  <Component id="btnDilatacao" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btnErosao" alignment="1" pref="249" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="btnMediana" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnMedia" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnGauciana" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnKVizinhos" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnLaplaciano" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnHighBoost" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnRoberts" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnPrewitt" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                              <Component id="btnSobel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnCanny" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnSegmentacao" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnLimiarizacaoGlobalSimples" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnLimiarizacaoGlobalOtima" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="panelImgProcessada" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnAbrir" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnRestaurar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnSalvar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="panelImgOriginal" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnOtsu" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnDilatacao" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnErosao" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="12" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btnAbrir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Abrir"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="panelImgProcessada">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="400" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="400" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JPanel" name="panelImgOriginal">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="400" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="400" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnMediana">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mediana"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMedia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xe9;dia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnGauciana">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Filtro Gauciana"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnKVizinhos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="K-vizinhos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLaplaciano">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Laplaciano"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnHighBoost">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="High-Boost"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnRoberts">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Detector de Roberts"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnPrewitt">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Operador de Prewitt"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnErosao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Eros&#xe3;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnDilatacao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dilata&#xe7;&#xe3;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnOtsu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limiar de Otsu"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLimiarizacaoGlobalOtima">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limiariza&#xe7;&#xe3;o Global &#xd3;tima"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLimiarizacaoGlobalSimples">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limiariza&#xe7;&#xe3;o Global Simples"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSegmentacao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Segmenta&#xe7;&#xe3;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCanny">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Detector de Canny"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSobel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Operador de Sobel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Imagem Original"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Imagem Processada"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnRestaurar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Restaurar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSalvar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salvar"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
